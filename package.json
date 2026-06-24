@@ -1,0 +1,17 @@
+{
+	"name": "territorios-da-agua-wp-theme",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Ambiente local para testar o tema WordPress Territorios da Agua.",
+	"scripts": {
+		"wp:start": "wp-env start",
+		"wp:start:playground": "wp-env start --runtime=playground",
+		"wp:stop": "wp-env stop",
+		"wp:destroy": "wp-env destroy",
+		"wp:status": "wp-env status",
+		"wp:activate": "wp-env run cli wp theme activate territorios-da-agua"
+	},
+	"devDependencies": {
+		"@wordpress/env": "latest"
+	}
+}

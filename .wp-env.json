@@ -1,0 +1,10 @@
+{
+	"core": null,
+	"themes": [
+		"./territorios-da-agua"
+	],
+	"config": {
+		"WP_DEBUG": true,
+		"SCRIPT_DEBUG": true
+	}
+}
